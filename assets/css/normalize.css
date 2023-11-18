@@ -9,16 +9,17 @@ body {
   height: 100%;
 }
 
-  h1, 
-  h2, 
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Noto Sans Mono', monospace;
-    font-style: normal;
-    line-height: normal;
-  } 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", monospace;
+  font-style: normal;
+  line-height: normal;
+
+}
 
 h1 {
   color: #5671a6;
@@ -26,9 +27,9 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  color: #5671a6;
-  font-size: 32px;
+  color: #1d428d;
   font-weight: 600;
+  font-size: 32px;
 }
 h3 {
   color: #5671a6;
@@ -37,9 +38,8 @@ h3 {
 }
 h4 {
   color: #383838;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
-
 }
 h5 {
   color: #383838;
@@ -53,21 +53,50 @@ h6 {
 }
 
 p {
-  
+  color: #616161;
+  text-align: center;
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 button {
   border-radius: 100px;
-  background: #5671A6;
   padding: 10px 40px;
-  border: 2px solid #5671A6;
+  border: 2px solid #5671a6;
   font-size: 16px;
   font-weight: 600;
-  color: #5671A6;
+  color: #5671a6;
   cursor: pointer;
-
+  transition: 0.5s;
 }
 
-a {
+.btn-demo {
+  background: none;
+}
 
+.btn-contact {
+  background: #5671a6;
+  color: white;
+  padding: 10px 15px;
+}
+
+.btn-demo:hover {
+  background: #5671a6;
+  color: white;
+}
+
+.btn-demo:active {
+  transform: scale(90%);
+}
+
+.btn-contact:hover {
+  background: none;
+  color: #5671a6;
+}
+
+.btn-contact:active {
+  transform: scale(90%);
 }

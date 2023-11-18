@@ -1,5 +1,22 @@
 .header {
   height: 76px;
   width: 100%;
-  background-color: blueviolet;
+  background-color: rgb(88, 86, 139);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
