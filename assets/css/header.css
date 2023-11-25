@@ -1,17 +1,21 @@
 .header {
   height: 76px;
   width: 100%;
-  background-color: rgb(88, 86, 139);
+
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Отступы внутренние */
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .navigation-menu {
@@ -19,4 +23,32 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+
+}
+/* переключатель */
+.light-switch {
+  width: 54px;
+  height: 30px;
+  border: 4px solid #5671A6;
+  border-radius: 50px;
+  position: relative;
+}
+
+.switcher {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background-color: #5671A6;
+  clip-path: circle();
+  transition: 0.5s;
+}
+
+#switch {
+  display: none;
+}
+
+#switch:checked ~ .switcher {
+  left: 23px;
 }
