@@ -8,7 +8,10 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
 h1,
 h2,
 h3,
@@ -99,4 +102,10 @@ button {
 
 .btn-contact:active {
   transform: scale(90%);
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+
 }

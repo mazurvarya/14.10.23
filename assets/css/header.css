@@ -9,6 +9,9 @@
   /* Отступы внутренние */
   padding-left: 24px;
   padding-right: 24px;
+
+  border-bottom: 1px dotted #6D8093;
+  ;
 }
 
 .navigation {
