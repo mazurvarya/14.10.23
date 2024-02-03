@@ -1,0 +1,48 @@
+.header {
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px dotted #5a5483;
+    background-color: #48426f;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+  
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h3{
+    font-family: "Poppins", monospace;
+    font-style: normal;
+    line-height: normal;
+    color: #5671a6;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.news-card-item_footer {
+    background-color: #48426f;
+    height: 380px;
+    width: 30%;
+}
+
+h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+}
