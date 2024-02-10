@@ -11,23 +11,48 @@
     <header class="News">
         <h1 class="header">
             <nav class="navigation">
-                <img src="/03.02.24/und.png" alt="">
+                <img class="rathead" src="/03.02.24/raat.png" alt="">
                 <div class="navigation-menu">
                     <h3>Главная</h3>
                     <h3>Новости</h3>
                     <h3>Контакты</h3>
                 </div>
             </nav>
+
+    <dialog id="modal" open>
+        <h1>войти</h1>
+        <p>qwerty</p>
+        <button id="close">закрыть окно</button>
+    </dialog>
+    <button id="open">войти</button>
+
         </h1>
     </header>
     <div class="news_card-list">
         <article class="news_card-item">
           <footer class="news-card-item_footer">
-            <img src="/03.02.24/" alt="" />
+            <img class="rat" src="/03.02.24/rat.jpg" alt="" />
             <h4>qwertyuiop</h4>
             <h1></h1>
           </footer>
         </article>
     </div>
 </body>
+<script>
+    let modal = document.getElementById("modal");
+    let close = document.getElementById("close");
+    let open = document.getElementById("open");
+
+    open.onclick = () => {
+        modal.showModal();
+        // modal.close();
+    }
+    close.onclick = () => {
+        modal.close();
+    }
+
+    window.onclick = (e) => {
+        console.log("нажали на сайт", e);
+    }
+</script>
 </html>
