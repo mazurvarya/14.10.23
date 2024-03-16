@@ -2,7 +2,6 @@
   height: 76px;
   width: 100%;
 
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,8 +9,7 @@
   padding-left: 24px;
   padding-right: 24px;
 
-  border-bottom: 1px dotted #6D8093;
-  ;
+  border-bottom: 1px dotted #6d8093;
 }
 
 .navigation {
@@ -26,24 +24,23 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-
 }
 /* переключатель */
 .light-switch {
   width: 54px;
   height: 30px;
-  border: 4px solid #5671A6;
+  border: 4px solid #5671a6;
   border-radius: 50px;
   position: relative;
 }
 
 .switcher {
-  position: absolute;
+  position: absolsute;
   top: 3px;
   left: 3px;
   width: 18px;
   height: 18px;
-  background-color: #5671A6;
+  background-color: #5671a6;
   clip-path: circle();
   transition: 0.5s;
 }

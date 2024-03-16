@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dark.css" />
+  </head>
+  <body>
+    <input type="checkbox" name="" id="switch" />
+    <label class="swither" for="switch">
+      <span></span>
+    </label>
+  </body>
+  <script>
+    let check = document.getElementById("switch");
+    let body = document.getElementById("body");
+    check.addEventListener("change", () => {
+      if (check.checked) {
+        body.style.background = "url('')";
+      } else {
+        body.style.background = "url('')";
+      }
+    });
+  </script>
+</html>
